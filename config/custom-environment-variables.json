@@ -1,0 +1,10 @@
+{
+  "provider": "https://rinkeby.infura.io/gZXjFZI0io2O0HexZV6c",
+  "contract": {
+    "address": "CONTRACT_ADDRESS",
+    "owner": {
+      "address": "OWNER_ADDRESS",
+      "private": "OWNER_PRIVATE_KEY"
+    }
+  }
+}

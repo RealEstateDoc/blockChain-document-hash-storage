@@ -1,0 +1,13 @@
+{
+    "provider": "https://rinkeby.infura.io/gZXjFZI0io2O0HexZV6c",
+    "contract": {
+        "name": "RED",
+        "address": "CONTRACT_ADDRESS From environment",
+        "gasLimitDefault": 210000,
+        "gasPriceDefault": 20000000000,
+        "owner": {
+            "address": "OWNER_ADDRESS From environment",
+            "private": "OWNER_PRIVATE_KEY From environment"
+        }
+    }
+}
