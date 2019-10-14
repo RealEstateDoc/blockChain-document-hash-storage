@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon server.js"
+    "start": "nodemon -L server.js",
+    "server": "nodemon -L  server.js",
+    "docker:start": "docker-compose -f docker-compose.yml up --build --force-recreate -d",
+    "docker:down": "docker-compose -f docker-compose.yml down",
+    "docker:logs": "docker-compose -f docker-compose.yml logs -f -t"
   },
   "keywords": [],
   "author": "",
