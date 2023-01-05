@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "ganache-cli": "^6.1.0",
+    "ganache-cli": "^6.12.2",
     "nodemon": "^1.18.3"
   },
   "dependencies": {
